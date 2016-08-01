@@ -1,0 +1,30 @@
+#hhhhhour,#mmmmmin,#sssssec,#ddddday {
+	float:left;
+	padding-top:20px;
+	padding-bottom:4px;	
+	padding-left:6px;
+	padding-right:3px;
+	width:68px;
+	height:84px;
+	position:relative;
+	display:block;
+	background:url(../images/timer-bg1.png) left top no-repeat;	
+}
+			
+#ddddday0,#ddddday1,#hhhhhour0,#hhhhhour1,#mmmmmin0,#mmmmmin1,#sssssec0,#clock #sssssec #sssssec1>p {
+	margin:0px;
+	padding:0px;
+	width:20px;
+	height:45px;
+	float:left;
+	color:#111;
+	font-size:40px;
+	position:absolute;
+	left:13px;
+}
+
+.sssssec1 {margin:0px; padding:0px; width:22px; height:45px; float:left; color:#c00000!important; font-size:40px!important; position:absolute; left:13px;}
+
+#sssssec1,#mmmmmin1,#hhhhhour1,#ddddday1 {
+	margin-left:20px;
+}

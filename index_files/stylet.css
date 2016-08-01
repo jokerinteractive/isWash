@@ -1,0 +1,65 @@
+#hour,#min,#sec,#day {
+	float:left;
+	padding-top:20px;
+	padding-bottom:4px;	
+	padding-left:6px;
+	padding-right:3px;
+	width:68px;
+	height:84px;
+	position:relative;
+	display:block;
+	background:url(../images/timer-bg1.png) left top no-repeat;	
+}
+			
+#day0,#day1,#hour0,#hour1,#min0,#min1,#sec0,#clock #sec #sec1>p {
+	margin:0px;
+	padding:0px;
+	width:20px;
+	height:45px;
+	float:left;
+	color:#111;
+	font-size:40px;
+	position:absolute;
+	left:13px;
+}
+
+.sec1 {margin:0px; padding:0px; width:22px; height:45px; float:left; color:#c00000!important; font-size:40px!important; position:absolute; left:13px;}
+
+#sec1,#min1,#hour1,#day1 {
+	margin-left:20px;
+}
+#timer_wrap {
+	height:65px;
+	width:306px;
+	padding:0px 8px;
+	margin-left: 0px;
+	margin-top: 5px;
+	font-family:'din_bold';
+position:relative;
+}		
+#clock {
+
+	height:84px;
+	width:340px;
+
+	padding:0px 0px 0px 0px;
+	position:absolute;
+	margin-top:0px;
+	margin-left: 3px;
+}
+#razd {
+	float:left;
+	font-family:'bliss_regular';
+	color:#000;
+	font-size:13px;
+	margin:44px 0px 0px 12px;
+}
+#stop {
+	position:absolute;
+	color:red;
+	font-size:2em;
+	text-align: center;
+	font-weight: bold;
+	left:0px;
+	top:10px;
+}
