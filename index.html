@@ -121,8 +121,7 @@ function checkForm_3(f)
 		$.cookie("timer", dateEnd, {expires: 3});
 	}
 </script> 
-
-<style type="text/css">.fancybox-margin{margin-right:17px;}</style></head>
+</head>
 <body>
 
 <p class="msgs">
@@ -197,14 +196,10 @@ function checkForm_3(f)
 		<div class="wrap">
 			<div class="menu_div1"></div>
 			<div class="menu_list">
-				<a href="#whats">Услуга химчистка автомобиля</a>
-				<a href="#eco">Преимущества химчистки с выездом</a>
-				<a href="#pluses">Почему выбирают нас</a>
-				<a href="#hww">Как мы работаем</a>
+				<a href="#whats">Наши услуги</a>
+				<a href="#eco">Особенности химчистки паром</a>
 				<a href="#serts">Цены на услуги</a>
-				<a href="#polirovka">Полировка</a>
 				<a href="#projects">Наши работы</a>
-				<a href="#reviews">Отзывы</a>
 				<a href="#contacts">Контакты</a>
 			</div>
 			<div class="menu_div2"></div>
@@ -212,873 +207,289 @@ function checkForm_3(f)
 	</div>
 	<div class="menu_a"><a href="#"></a></div>
 </nav>
+
 <div class="page">
-	<header>
-		<div class="wrap">
-			<div class="social">
-				<a href="" target="_blank"><img src="./index_files/vk.png"></a>
-				<a href="#polirovka"><img src="./index_files/polir.png"></a>
+
+	<header class="header">
+		<div class="wrap header__wrap">
+		  <div class="header__flex">
+		    <div class="header__place">
+				  Санкт-петербург, <br> Салова 78
+			  </div>
+		    <div class="header__logo">
+				  <img src="images/logo.svg" alt="isWash">
+				  <span>Химчистка автомобилей паром в Санкт-Петербурге</span>
+			  </div>
+			  <div class="header__phone">
+				  <span>8 (495) <b>96-96-513&nbsp;&nbsp;</b></span>
+				  <a id="go" rel="leanModal" name="callback" href="#callback" class="header__callback">Заказать звонок</a>
+			  </div>
 			</div>
-			<div class="logo"></div>
-			<div class="phone">
-				8 (985) <b>96-96-513&nbsp;&nbsp;</b><br>
-					<div style="height:2px;"></div>
-				8 (495) <b>96-96-513&nbsp;&nbsp;</b>
-				<a id="go" rel="leanModal" name="callback" href="#callback" class="mc">Заказать звонок</a>
-			</div>
-			<div class="clear"></div>
 		</div>
 	</header>
-	<section class="main" title="клининговые услуги" alt="клининговые услуги, химчистка салона авто">
+
+	<section class="main">
 		<div class="wrap">
-		<p style="text-align: center; margin-bottom:10px; background: rgba(255,255,255,0.75); padding:5px"></p>
-			<h1>
-				<span class="spn1">Химчистка салона автомобиля    с выездом к Вам</span>
-				
+			<h1 class="main__name">
+				<span class="spn1">
+				  <span class="color-red">РезультативнаЯ</span> 
+				  химчистка автомобилЯ паром
+				</span>
 			</h1>
-			
-			<div class="parallax">
-				<ul id="scene" class="scene" style="transform: translate3d(0px, 0px, 0px); transform-style: preserve-3d; backface-visibility: hidden;"></ul>
+
+			<div class="main__order">
+				<a href="#service">Посмотреть услуги</a>
 			</div>
-			
+
+			<div class="main-services">
+			  <div class="main-services__item main-services__item--clean">
+				  <span>Химчистка салона</span>
+			  </div>
+			  <div class="main-services__item main-services__item--engine">
+				  <span>Очистка двигателя с подкапотным пространством</span>
+			  </div>
+			  <div class="main-services__item main-services__item--presale">
+				  <span>Предпродажная подготовка</span>
+			  </div>
+			  <div class="main-services__item main-services__item--smell">
+				  <span>Устранение микробов и запахов</span>
+			  </div>
+		  </div>
 		</div>
 	</section>
-	<section class="order ordr">
-		<div class="wrap">
-		
-			<div class="timer_block" style="top:-10px;">
-			
-				<div class="timer_img"></div>
-				<span>Оставьте заявку прямо сейчас!</span>
-				<font style="color:#df0000; font-weight:bold; letter-spacing:0.5px;">Только до 31 июля закажи комплексную химчистку с выездом всего за 3990 рублей + Химчистка Багажника в Подарок!</font><br>
-				<div class="kont">По вопросам приобретения купонов в подарок 
-<br>звоните по телефону: <b>8 (985) 96-96-513</b> или пишите <br>на электронную почту: <b>info@totalcleaning.ru</b>
-				<div class="clear"></div>
-				<div class="kont2">
-				<div class="left">до конца акции:</div>
-	<div id="timer_wrap">
-		<div id="clock">
-			<div id="day">
-				<p id="day0">1</p>
-				<p id="day1">2</p>
 
-			<div id="razd">
-				дней
-			</div>
-			</div>			
-			<div id="hour">
-				<p id="hour0">1</p>
-				<p id="hour1">4</p>
+	<section class="service" id="service">
+	  <div class="wrap service__wrap">
+		<h2 class="service__header">Наши услуги</h2>
+		<ul class="service__list">
 
-			<div id="razd">
-				часов
-			</div>
-			</div>			
-			<div id="min">
-				<p id="min0">3</p>
-				<p id="min1" style="margin-top: 0px; opacity: 1;">0</p>
+			<li class="service__item">
+				<header class="service__name">
+					<span>Химчистка салона паром</span>
+				</header>
+				<p class="service__descr">
+					Наиболее эффективный и продвинутый вариант очищения салона от любых загрязнений. Производится с помощью генератора пара или безопасных препаратов бытовой автохимии, соответственно степени загрязнений и особенностям интерьера салона.
+				</p>
+			</li>
 
-			<div id="razd">
-				минут
-			</div>
-			</div>			
-			<div id="sec">
-				<p id="sec0" style="margin-top: 0px; opacity: 1;">3</p>
-				<p id="sec1" class="sec1" style="margin-top: 0px; opacity: 1;">4</p>
-			<div id="razd">
-				секунд
-			</div>				
-			</div>
-		</div>		
-	</div>
-</div>
-				</div>
-				
-			</div>
-	
-			<div class="order_block" style="top:-40px; right:10px">
-				<span>Консультация<em>по химчистке салона автомобиля</em></span>
-				и по другим услугам компании<br>ООО «Тотал-Клининг»
-				<form action="" method="POST" name="form" onsubmit="return checkForm_1(this)">
-					<input type="hidden" name="service" class="service" value="Форма заказа сверху страницы">
-					<input type="text" name="name" value="" class="input_name placeholder" data-placeholder="ваше имя">
-					<input type="text" name="phone" value="" class="input_phone" placeholder="ваш телефон*">
-					<input type="text" name="email" value="" class="input_email placeholder" data-placeholder="ваш e-mail">
-					<input type="text" name="avt" value="" class="input_avt placeholder" data-placeholder="класс автомобиля">
-					<input class="bttn" name="submit" type="submit" value="Оставить заявку">
-				</form>
-		
-			</div>
-		</div>
+			<li class="service__item">
+				<header class="service__name">
+					<span>Очистка двигателя с подкапотным пространством</span>
+				</header>
+				<p class="service__descr">
+					Процедура критически важная для общей исправности машины. Известно, что подтёки масла или осадки от бензиновых паров ведут к возгоранию. Очистка зоны двигателя химическими (препаратами чистящей автохимии) и тепловыми (пар) приводит двигатель и подкапотное пространство в состояние практически идеальной чистоты.
+				</p>
+			</li>
+
+			<li class="service__item">
+				<header class="service__name">
+					<span>Предпродажная подготовка</span>
+				</header>
+				<p class="service__descr">
+					Компания рекомендует обратить максимальное внимание на данную услугу хозяевам машин, собирающимся выставлять свою собственность на продажу. Всем опытным автомобилистам известно, как позитивно сказывается на размере продажной цены идеальное состояние автомобиля, особенно его чистота. Специалисты «Is Wash» выполняют эту работу с ясно видимым результатом и 100%-ным конечным качеством.
+				</p>
+			</li>
+		</ul>
+		<div class="service__order">
+		  <a id="go" rel="leanModal" valueforleanmodal="Записаться на химчистку" name="makeorder" href="#makeorder">Записаться на химчистку</a>
+	  </div>
+	  </div>
 	</section>
-	<section class="whats" id="whats">
-		<h2>Что входит в услугу<br>химчистки салона автомобиля?</h2>
-<div class="mac">
-		<div class="video1">
-			<iframe class="ten" width="432" height="324" src="./index_files/p6Z5p10ADDA.html" frameborder="0" allowfullscreen=""></iframe>		
-		</div>	
-</div>		
-		<div class="wrap" style="margin-top:60px;">
-			<div class="whats_block scroll-animate" title="Химчистка авто" alt="Химчистка авто">
-				<div class="what w1 fade1" title="Химчистка автомобиля" alt="Химчистка автомобиля" style="opacity: 0.01;">
-					Нанесение полироли на пластик
-				</div>
-				<div class="what w2 fade1" title="Химчистка автомобиля цены" alt="Химчистка автомобиля цены" style="opacity: 0.01;">
-					Устранение пятен
-				</div>
-				<div class="what w3 fade1" title="Химчистка салона" alt="Химчистка салона" style="opacity: 0.01;">
-					Химчистка потолка, сидений, пола <br>при помощи профессионального оборудования
-				</div>
-				<div class="what w4 fade1" title="Химчистка салона автомобиля " alt="Химчистка салона автомобиля" style="opacity: 0.01;">
-					Сухая чистка всего салона <br>при помощи мощного пылесоса
-				</div>
-				<div class="what w5 fade1" title="Химчистка салона автомобиля Москва" alt="Химчистка салона автомобиля Москва" style="opacity: 0.01;">
-					Влажная уборка и чистка <br>всех пластиковых деталей
-				</div>
-				<div class="what w6 fade1" title="Химчистка салона цена" alt="Химчистка салона цена" style="opacity: 0.01;">
-					Чистка окон
-				</div>
-				<div class="what w7 fade1" title="Чистка автомобиля" alt="Чистка автомобиля" style="opacity: 0.01;">
-					Нанесение защитного слоя <br>на кожанные сидения <br>и вставки в двери
-				</div>
-			</div>
 
-			<div class="whats_order">
-				<a id="go" rel="leanModal" valueforleanmodal="Записаться на химчистку" name="makeorder" href="#makeorder">Записаться на химчистку</a>
-			</div>
-		</div>
-	</section>
 	<section class="eco" id="eco">
-		<h2>Особенности услуги <br>по химчистке салона автомобиля с выездом <br>в удобное для клиента место</h2>
+		<h2>Особенности химчистки <br> автомобиля паром</h2>
 		<div class="wrap">
-			<div class="eco_block">		
-<div class="w480 e1 scroll-animate">
-		<div class="fade" style="opacity: 0.01;">
-	<img src="./index_files/e01.png" style="position:absolute; left:-140px; top:-30px;" alt="Чистка салона" title="Чистка салона">
-		<p class="tal">Превосходное качество услуги. Вы сразу увидите результат.</p>
-		</div>
-</div>
+
+		<div class="eco_block">		
+      <div class="w480 e1 scroll-animate">
+		    <div class="fade">
+	        <img src="./index_files/e01.png" style="position:absolute; left:-140px; top:-30px;" alt="Чистка салона" title="Чистка салона">
+		      <p class="tal">Безвредно для всех материалов: кожи, металла и пластика.</p>
+		    </div>
+      </div>
 			
-<div class="w480 e2 scroll-animate">
-		<div class="fade" style="opacity: 0.01;">
-		<p class="tar">Услуга предоставляется автономно и нам не нужна розетка. <br>У нас специальнооборудованная машина.</p>
-	<img src="./index_files/e02.png" title="Чистка салона автомобиля" alt="Чистка салона автомобиля" class="ww2">
-		</div>
-</div>
+      <div class="w480 e2 scroll-animate">
+	      <div class="fade">
+		      <p class="tar">Одну и ту же область мы чистим несколько раз, убирая <br> впитавшуюся грязь на всех слоях, а не только на поверхности.</p>
+	        <img src="./index_files/e02.png" title="Чистка салона автомобиля" alt="Чистка салона автомобиля" class="ww2">
+	      </div>
+      </div>
 			
-<div class="w480 e3 scroll-animate">
-		<div class="fade" style="opacity: 0.01;">
-	<img src="./index_files/e03.png" title="Химчистка салона автомобиля цена в Москве" alt="Химчистка салона автомобиля цена в Москве" class="ww1">
-		<p class="tal">Салон автомобиля уже сухой через 1 час.</p>
-		</div>
-</div>
+      <div class="w480 e3 scroll-animate">
+	      <div class="fade">
+	        <img src="./index_files/e03.png" title="Химчистка салона автомобиля цена в Москве" alt="Химчистка салона автомобиля цена в Москве" class="ww1">
+	        <p class="tal">Поток пара при высоком давлении способен добраться в самые труднодоступные места: складки, швы, стойки и углубления.</p>
+	      </div>
+      </div>
 			
-<div class="w480 e4 scroll-animate animate">
-		<div class="fade" style="opacity: 1;">
-		<p class="tar">Дорогое профессиональное оборудование и химия.</p>
-	<img src="./index_files/e04.png" title="Химчистка салона автомобиля цена" alt="Химчистка салона автомобиля цена" class="ww2">
-		</div>
-</div>
+      <div class="w480 e4 scroll-animate animate">
+        <div class="fade">
+	        <p class="tar">В паре всего 5% воды. А это значит, что сразу после мойки машина будет практически сухая и пригодная к комфортному использованию.</p>
+	        <img src="./index_files/e04.png" title="Химчистка салона автомобиля цена" alt="Химчистка салона автомобиля цена" class="ww2">
+	      </div>
+      </div>
 			
-<div class="w480 e5 scroll-animate animate">
-		<div class="fade" style="opacity: 1;">
-	<img src="./index_files/e05.png" title="Химчистка автомобиля Москва" alt="Химчистка автомобиля Москва" class="ww1" style="top:5px;">
-		<p class="tal">Доступные цены. 
-Мы не гонимся за сверхприбылью. <br>Нам важно, чтобы каждый мог привести в порядок салон <br>своего автомобиля за приемлемую цену.</p>
-		</div>
-</div>
-			
-<div class="w480 e6 scroll-animate animate">
-		<div class="fade" style="opacity: 1;">
-		<p class="tar">Европейский стандарт предоставления услуги. 
-<br>Мы лояльны к каждому клиенту.</p>
-	<img src="./index_files/e06.png" title="Химчистка автомобиля цены Москва" alt="Химчистка автомобиля цены Москва" class="ww2">
-		</div>
-</div>
-			
-<div class="w480 e7 scroll-animate animate">
-		<div class="fade" style="opacity: 1;">
-	<img src="./index_files/e07.png" title="Химчистка салона автомобиля цена в Москве" alt="Химчистка салона автомобиля цена в Москве" class="ww1">
-		<p class="tal">Быстрота. 
-Химчистка занимает 3 часа.</p>
-		</div>
-</div>
-			
-<div class="w480 e8 scroll-animate animate">
-		<div class="fade" style="opacity: 1;">
-		<p class="tar">Удобство. 
-Закажите услугу в любом удобном для Вас месте.</p>
-	<img src="./index_files/e08.png" title="Химчистка салона Москва цена" alt="Химчистка салона Москва цена" class="ww2" style="top:-25px;">
-		</div>
-</div>
-			
-<div class="w480 e9 scroll-animate animate">
-		<div class="fade" style="opacity: 1;">
-	<img src="./index_files/e09.png" title="Химчистка салона Москва" alt="Химчистка салона Москва" class="ww1" style="top:-10px;">
-		<p class="tal">Нет аналогов.</p>
-		</div>
-</div>
-			
-<div class="w480 e10 scroll-animate">
-		<div class="fade" style="opacity: 0.01;">
-		<p class="tar">Оперативность. <br>Возможность приезда спецавтомобиля через час после обращения.</p>
-	<img src="./index_files/e10.png" title="Химчистка авто" alt="Химчистка авто" class="ww2" style="top:-10px;">
-		</div>
-</div>
-													
-			</div>
-			<a id="go" rel="leanModal" valueforleanmodal="Заказать химчистку авто" name="makeorder" href="#makeorder">Заказать химчистку авто</a>
+      <div class="w480 e5 scroll-animate animate">
+	      <div class="fade">
+	        <img src="./index_files/e05.png" title="Химчистка автомобиля Москва" alt="Химчистка автомобиля Москва" class="ww1" style="top:5px;">
+		      <p class="tal">Химия при чистке используется только для вывода застарелых сложных загрязнений. Впоследствии, используя пар мы убираем и ее остатки.</p>
+	      </div>
+      </div>
+	  </div>
+
+	  <a id="go" rel="leanModal" valueforleanmodal="Заказать химчистку авто" name="makeorder" href="#makeorder">Заказать химчистку авто</a>
 		</div>
 	</section>
+
+<section class="result-item">
+  <p class="rez-zag">Результат качественной работы</p>
+  <center>	
+    <p class="rez-str">
+      <img src="./index_files/str1.png" title="" alt="" style="left:-32px; top:2px"> 
+      до / после 
+      <img src="./index_files/str2.png" title="" alt="" style="right:-32px; top:2px">
+    </p>	
+  </center>	
 	
-	<section class="vars" id="vars"> </section>
-	
-	<section class="order" title="Химчистка автомобиля" alt="Химчистка автомобиля">
-		<div class="wrap">
-			<div class="timer_block">
-				<div class="timer_img"></div>
-				<span>Оставьте заявку прямо сейчас!</span>
-				<font style="color:#df0000; font-weight:bold; letter-spacing:0.5px;">Только до 31 июля закажи комплексную химчистку с выездом всего за 3990 рублей + Химчистка Багажника в Подарок!</font> <br><div class="kont">По вопросам приобретения купонов в подарок 
-<br>звоните по телефону: <b>8 (985) 96-96-513</b> или пишите <br>на электронную почту: <b>info@totalcleaning.ru</b>
-				<div class="clear"></div>
-				<div class="kont2">
-				<div class="left">до конца акции:</div>
-
-  <link rel="stylesheet" type="text/css" href="./index_files/stylett.css">  
-  <script src="./index_files/scriptt.js"></script>
-	<div id="timer_wrap">
-		<div id="clock">
-			<div id="dday">
-<div class="vlevo-50">			
-				<p id="dday0">1</p>
-				<p id="dday1">2</p>
-</div>
-			<div id="razd">
-дней
-			</div>
-			</div>			
-			<div id="hhour">
-<div class="vlevo-50">			
-				<p id="hhour0">1</p>
-				<p id="hhour1">4</p>
-</div>
-			<div id="razd">
-часов
-			</div>
-			</div>			
-			<div id="mmin">
-<div class="vlevo-50">			
-				<p id="mmin0">3</p>
-				<p id="mmin1" style="margin-top: 0px; opacity: 1;">0</p>
-</div>
-			<div id="razd">
-минут
-			</div>
-			</div>			
-			<div id="ssec">
-<div class="vlevo-50">			
-				<p id="ssec0" style="margin-top: 0px; opacity: 1;">3</p>
-				<p id="ssec1" class="ssec1" style="margin-top: 0px; opacity: 1;">3</p>
-</div>				
-			<div id="razd">
-секунд
-			</div>				
-			</div>
-		</div>		
-	</div>	
-
-</div>
-				</div>
-			</div>
-			<div class="order_block">
-				<span>Консультация<em>по химчистке салона автомобиля</em></span>
-				и по другим услугам компании<br>ООО «Тотал-Клининг»
-				<form action="" method="POST" name="form" onsubmit="return checkForm_1(this)">
-					<input type="hidden" name="service" class="service" value="заказ над КОГДА НЕОБХОДИМЫ НАШИ УСЛУГИ">
-					<input type="text" name="name" value="" class="input_name placeholder" data-placeholder="ваше имя">
-					<input type="text" name="phone" value="" class="input_phone placeholder" data-placeholder="ваш телефон*">
-					<input type="text" name="email" value="" class="input_email placeholder" data-placeholder="ваш e-mail">
-					<input type="text" name="avt" value="" class="input_avt placeholder" data-placeholder="класс автомобиля">
-					<input class="bttn" name="submit" type="submit" value="Оставить заявку">
-				</form>
-			</div>
+	<div class="result-item-slider">		
+		<div class="result-wrapper">
+			<img src="./index_files/before.jpg" title="Чистка салона автомобиля" alt="Чистка салона автомобиля" class="before">
 		</div>
-	</section>
-	<section class="pluses" id="pluses">
-		<div class="wrap">
-			<div class="pluses_img" title="Химчистка автомобиля цены" alt="Химчистка автомобиля цены"></div>
-			<h3>Когда необходимы наши услуги</h3>
-			<div class="pluses_block">
-				<div class="p1a scroll-animate">
-					<div class="plus fade" style="opacity: 0.01;">
-						<div class="plus_nmbr">01</div>
-						<div class="plus_text">
-							<span>Чистота салона</span>
-							Химчистку необходимо проводить два раза в год, чтобы содержать салон в чистоте.
-						</div>
-						<div class="clear"></div>
-					</div>
-				</div>
-				<div class="p2a scroll-animate">
-					<div class="plus fade" style="opacity: 0.01;">
-						<div class="plus_nmbr">02</div>
-						<div class="plus_text">
-							<span>Привлекательность и презентабельность авто</span>
-							Особенно перед продажей машины - это увеличит её стоимость.
-						</div>
-						<div class="clear"></div>
-					</div>
-				</div>
-				<div class="p3a scroll-animate">
-					<div class="plus fade" style="opacity: 0.01;">
-						<div class="plus_nmbr">03</div>
-						<div class="plus_text">
-							<span>Реставрация салона</span>
-							Например, после покупки авто, чтобы убрать различные запахи и т.д.
-						</div>
-						<div class="clear"></div>
-					</div>
-				</div>
-				<div class="p4a scroll-animate">
-					<div class="plus fade" style="opacity: 0.01;">
-						<div class="plus_nmbr">04</div>
-						<div class="plus_text">
-							<span>Забота о собственном здоровье</span>
-							Чистый салон атомобиля - это в первую очередь здоровье его владельца и пассажиров.
-						</div>
-						<div class="clear"></div>
-					</div>
-				</div>
-				<div class="p5a scroll-animate">
-					<div class="plus fade" style="opacity: 0.01;">
-						<div class="plus_nmbr">05</div>
-						<div class="plus_text">
-							<span>Устранение неожиданных трудновыводимых загрязнений</span>
-							Данная услуга особенно актуальна если у Вас дети.
-						</div>
-						<div class="clear"></div>
-					</div>
-				</div>
-			<a id="go" rel="leanModal" valueforleanmodal="Заказать химчистку авто" name="makeorder" href="#makeorder">Заказать химчистку авто</a>
-			</div>
-		</div>
-	</section>
-	<section class="hww" id="hww">
-		<h2>Как мы работаем?</h2>
-		<div class="wrap scroll-animate">
-			<div class="hww_one h1 fade2" title="Химчистка салона" alt="Химчистка салона" style="opacity: 1;">
-				Вы нам звоните по телефону 8(985)96-96-513 <br>либо делаете заявку через форму заказа
-			</div>
-			<div class="hww_one h2 fade2" title="Химчистка салона автомобиля" alt="Химчистка салона автомобиля" style="opacity: 1;">
-				Мы согласовываем с Вами <br>время и место
-			</div>
-			<div class="hww_one h3 fade2" title="Химчистка салона автомобиля Москва" alt="Химчистка салона автомобиля Москва" style="opacity: 1;">
-				Приезжаем на заказ, <br>делаем химчистку
-			</div>
-			<div class="hww_one h4 fade2" title="Химчистка салона цена" alt="Химчистка салона цена" style="opacity: 1;">
-				Вы принимаете работу и <br>оплачиваете услугу.
-			</div>
-			<div class="car" title="Чистка автомобиля" alt="Чистка автомобиля" style="opacity: 0.01;"></div>
-		</div>
-	</section>	
+		<img src="./index_files/after.jpg" title="Химчистка салона Москва" alt="Химчистка салона Москва" class="after">	
+		<div class="drag-cursor"></div>
+	</div>		
+</section>
 
-	<section class="order ordr2" title="Чистка салона" alt="Чистка салона">
-		<div class="wrap">
-			<div class="timer_block">
-				<div class="timer_img"></div>
-				<span>Оставьте заявку прямо сейчас!</span>
-				<font style="color:#df0000; font-weight:bold; letter-spacing:0.5px;">Только до 31 июля закажи комплексную химчистку с выездом всего за 3990 рублей + Химчистка Багажника в Подарок!</font> <br><div class="kont">По вопросам приобретения купонов в подарок 
-<br>звоните по телефону: <b>8 (985) 96-96-513</b> или пишите <br>на электронную почту: <b>info@totalcleaning.ru</b>
-				<div class="clear"></div>
-				<div class="kont2">
-				<div class="left">до конца акции:</div>
+  <section class="portfolio">
+	  <div class="wrap">
+	  	<h2 class="portfolio__header">
+	  		Случаи из практики
+	  	</h2>
 
-  <link rel="stylesheet" type="text/css" href="./index_files/stylettt.css">  
-  <script src="./index_files/scripttt.js"></script> 				
-	<div id="timer_wrap">
-		<div id="clock">
-			<div id="ddday">
-<div class="vlevo-50">			
-				<p id="ddday0">1</p>
-				<p id="ddday1">2</p>
-</div>
-			<div id="razd">
-дней
-			</div>
-			</div>			
-			<div id="hhhour">
-<div class="vlevo-50">			
-				<p id="hhhour0">1</p>
-				<p id="hhhour1">4</p>
-</div>
-			<div id="razd">
-часов
-			</div>
-			</div>			
-			<div id="mmmin">
-<div class="vlevo-50">			
-				<p id="mmmin0">3</p>
-				<p id="mmmin1" style="margin-top: 0px; opacity: 1;">0</p>
-</div>
-			<div id="razd">
-минут
-			</div>
-			</div>			
-			<div id="sssec">
-<div class="vlevo-50">			
-				<p id="sssec0" style="margin-top: 0px; opacity: 1;">3</p>
-				<p id="sssec1" class="ssec1" style="margin-top: -19.9803px; opacity: 0.000986636;">3</p>
-</div>				
-			<div id="razd">
-секунд
-			</div>				
-			</div>
-		</div>		
-	</div>	
-</div>
-				</div>
-			</div>
-			<div class="order_block">
-				<span>Консультация<em>по химчистке салона автомобиля</em></span>
-				и по другим услугам компании<br>ООО «Тотал-Клининг»
-				<form action="" method="POST" name="form" onsubmit="return checkForm_1(this)">
-					<input type="hidden" name="service" class="service" value="Заказ над блоком УСЛУГИ от ООО Тотал-Клининг">
-					<input type="text" name="name" value="" class="input_name placeholder" data-placeholder="ваше имя">
-					<input type="text" name="phone" value="" class="input_phone placeholder" data-placeholder="ваш телефон*">
-					<input type="text" name="email" value="" class="input_email placeholder" data-placeholder="ваш e-mail">
-					<input type="text" name="avt" value="" class="input_avt placeholder" data-placeholder="класс автомобиля">
-					<input class="bttn" name="submit" type="submit" value="Оставить заявку">
-				</form>
-			</div>
-		</div>
-	</section>
+	  	<div class="portfolio__case">
+	  		<div class="portfolio__photos">
+	  			<img src="">
+	  		</div>
+	  		<div class="portfolio__descr">
+	  			
+	  		</div>
+	  	</div>
+	  </div>
+  </section>
 
-	<section class="serts" id="serts">
-<div class="wrap">	
+<section class="serts" id="serts">
+  <div class="wrap">	
 	<h2>Цены</h2>
 	<h4 style="text-transform: uppercase;">Стоимость химчистки салона зависит от класса автомобиля</h4>
-				<div class="w25fl"><img src="./index_files/cen1.png" title="Чистка салона автомобиля" alt="Чистка салона автомобиля">
-				<img src="./index_files/ikon1.png" class="ikon1">
-		<p>Легковой автомобиль<br>класс A, B, C<br>4 500 руб.</p>
-			<a id="go" rel="leanModal" valueforleanmodal="Химчистка автомобиля класс A, B, C" name="makeorder2" href="#makeorder2" class="mc">Заказать</a>
-				</div>
-<div class="w25fl"><img src="./index_files/cen2.png" title="Химчистка салона автомобиля цена в Москве" alt="Химчистка салона автомобиля цена в Москве">
-				<img src="./index_files/ikon1.png" class="ikon1">
-		<p>Легковой автомобиль<br>класс D, E<br>4 800 руб.</p>
-			<a id="go" rel="leanModal" valueforleanmodal="Химчистка автомобиля класс D, E" name="makeorder2" href="#makeorder2" class="mc">Заказать</a>
-				</div>
-<div class="w25fl"><img src="./index_files/cen3.png" title="Химчистка салона автомобиля цена" alt="Химчистка салона автомобиля цена">
-				<img src="./index_files/ikon1.png" class="ikon1">
-		<p>Легковой автомобиль<br>класс S<br>5 500 руб.</p>
-			<a id="go" rel="leanModal" valueforleanmodal="Химчистка автомобиля класс S" name="makeorder2" href="#makeorder2" class="mc">Заказать</a>
-				</div>
-<div class="w25fl"><img src="./index_files/cen4.png" title="Химчистка автомобиля Москва" alt="Химчистка автомобиля Москва">
-				<img src="./index_files/ikon1.png" class="ikon1">
-		<p>Кроссоверы, универсалы повышенной проходимости<br>5 300 руб.</p>
-			<a id="go" rel="leanModal" valueforleanmodal="Химчистка кроссоверов или универсалов" name="makeorder2" href="#makeorder2" class="mc">Заказать</a>
-				</div>
-<div class="w25fl"><img src="./index_files/cen5.png" title="Химчистка автомобиля цены Москва" alt="Химчистка автомобиля цены Москва">
-				<img src="./index_files/ikon1.png" class="ikon1">
-		<p>Большие внедорожники<br>6 000 руб.</p>
-			<a id="go" rel="leanModal" valueforleanmodal="Химчистка больших внедорожников" name="makeorder2" href="#makeorder2" class="mc">Заказать</a>
-				</div>
-<div class="w25fl"><img src="./index_files/cen6.png" title="Химчистка салона Москва цена" alt="Химчистка салона Москва цена">
-				<img src="./index_files/ikon1.png" class="ikon1">
-		<p>Мини-Вэн<br>7 000 руб.</p>
-			<a id="go" rel="leanModal" valueforleanmodal="Химчистка мини-вэнов" name="makeorder2" href="#makeorder2" class="mc">Заказать</a>
-				</div>
-<div class="w25fl"><img src="./index_files/cen7.png" title="Химчистка салона Москва цена" alt="Химчистка салона Москва цена">
-				<img src="./index_files/ikon1.png" class="ikon1">
-		<p>Грузовой автомобиль, Фура<br>5 000 - 7 000 руб.</p>
-			<a id="go" rel="leanModal" valueforleanmodal="Химчистка грузовика или фуры" name="makeorder2" href="#makeorder2" class="mc">Заказать</a>
-				</div>
-<div class="w25fl"><img src="./index_files/cen8.png" title="Химчистка салона Москва" alt="Химчистка салона Москва">
-				<img src="./index_files/ikon1.png" class="ikon1">
-		<p>Автобус<br>по договоренности</p>
-			<a id="go" rel="leanModal" valueforleanmodal="Химчистка автобуса" name="makeorder2" href="#makeorder2" class="mc">Заказать</a>
-				</div>
-<p><b>*В случае убитого салона цена может быть увеличена на 30%</b></p>
-<br>
-<div class="text-cen">Для дилеров и владельцев автопарков предусмотрены существенные скидки.
-При повторном обращение мы предоставляем скидку 5%.
-Цены действительны для Москвы и Московской области до 50 км от МКАД. 
-<br>Свыше 50 км от МКАД + 700 рублей, но не более 130 км от МКАД.</div>
-<div class="clear" id="polirovka"></div>
- 
+	
+	<div class="w25fl">
+	  <img src="./index_files/cen1.png" title="Чистка салона автомобиля" alt="Чистка салона автомобиля">
+		<img src="./index_files/ikon1.png" class="ikon1">
+		<p>Легковой автомобиль <br> класса A <br> 1 450 руб.</p>
+	  <a id="go" rel="leanModal" valueforleanmodal="Химчистка автомобиля класса A" name="makeorder2" href="#makeorder2" class="mc">Заказать</a>
+	</div>
+
+  <div class="w25fl">
+    <img src="./index_files/cen2.png" title="Химчистка салона автомобиля цена в Москве" alt="Химчистка салона автомобиля цена в Москве">
+		<img src="./index_files/ikon1.png" class="ikon1">
+		<p>Легковой автомобиль <br> класс B, C, D <br> 1 950 руб.</p>
+		<a id="go" rel="leanModal" valueforleanmodal="Химчистка автомобиля класс B, C, D" name="makeorder2" href="#makeorder2" class="mc">Заказать</a>
+	</div>
+
+  <div class="w25fl">
+    <img src="./index_files/cen2.png" title="Химчистка салона автомобиля цена" alt="Химчистка салона автомобиля цена">
+		<img src="./index_files/ikon1.png" class="ikon1">
+		<p>Легковой автомобиль<br>класс E, F <br> 2 350 руб.</p>
+	  <a id="go" rel="leanModal" valueforleanmodal="Химчистка автомобиля класс E, F" name="makeorder2" href="#makeorder2" class="mc">Заказать</a>
+	</div>
+
+  <div class="w25fl">
+    <img src="./index_files/cen6.png" title="Химчистка автомобиля Москва" alt="Химчистка автомобиля Москва">
+		<img src="./index_files/ikon1.png" class="ikon1">
+		<p>Внедорожники, минивэны, <br> малые микроавтобусы <br> 2 950 руб.</p>
+		<a id="go" rel="leanModal" valueforleanmodal="Большие внедорожники, минивэны, малые микроавтобусы" name="makeorder2" href="#makeorder2" class="mc">Заказать</a>
+	</div>
+
+	<div class="w25fl">
+    <img src="./index_files/cen6.png" title="Химчистка автомобиля Москва" alt="Химчистка автомобиля Москва">
+		<img src="./index_files/ikon1.png" class="ikon1">
+		<p>Большие микроавтобусы <br> и лимузины <br> 3 450 руб.</p>
+		<a id="go" rel="leanModal" valueforleanmodal="Большие внедорожники, минивэны, малые микроавтобусы" name="makeorder2" href="#makeorder2" class="mc">Заказать</a>
+	</div>
+
+  <div class="clear" id="polirovka"></div>
+
 	<h4 style="margin-top:60px; text-transform: uppercase;">Стоимость полировки зависит от класса автомобиля</h4>
 	<h4 style="margin-top:30px;">Восстановительная полировка кузова:</h4>
-				<div class="w25fl"><img src="./index_files/cen1.png" title="Химчистка авто" alt="Химчистка авто">
-				<img src="./index_files/ikon2.png" class="ikon1">
-		<p>Легковой автомобиль<br>класс A, B, C<br>6 990 руб.</p>
-			<a id="go" rel="leanModal" valueforleanmodal="полировка автомобиля класс A, B, C" name="makeorder2" href="#makeorder2" class="mc">Заказать</a>
-				</div>
-<div class="w25fl"><img src="./index_files/cen2.png" title="Химчистка автомобиля" alt="Химчистка автомобиля">
-				<img src="./index_files/ikon2.png" class="ikon1">
-		<p>Легковой автомобиль<br>класс D, E<br>7 800 руб.</p>
-			<a id="go" rel="leanModal" valueforleanmodal="полировка автомобиля класс D, E" name="makeorder2" href="#makeorder2" class="mc">Заказать</a>
-				</div>
-<div class="w25fl"><img src="./index_files/cen3.png" title="Химчистка автомобиля цены" alt="Химчистка автомобиля цены">
-				<img src="./index_files/ikon2.png" class="ikon1">
-		<p>Легковой автомобиль<br>класс S<br>9 000 руб.</p>
-			<a id="go" rel="leanModal" valueforleanmodal="полировка автомобиля класс S" name="makeorder2" href="#makeorder2" class="mc">Заказать</a>
-				</div>
-<div class="w25fl"><img src="./index_files/cen4.png" title="Химчистка салона" alt="Химчистка салона">
-				<img src="./index_files/ikon2.png" class="ikon1">
-		<p>Кроссоверы, универсалы повышенной проходимости<br>9 000 руб.</p>
-			<a id="go" rel="leanModal" valueforleanmodal="полировка кроссоверов или универсалов" name="makeorder2" href="#makeorder2" class="mc">Заказать</a>
-				</div>
-<div class="w25fl"><img src="./index_files/cen5.png" title="Химчистка салона автомобиля" alt="Химчистка салона автомобиля">
-				<img src="./index_files/ikon2.png" class="ikon1">
-		<p>Большие внедорожники<br>10 000 руб.</p>
-			<a id="go" rel="leanModal" valueforleanmodal="полировка больших внедорожников" name="makeorder2" href="#makeorder2" class="mc">Заказать</a>
-				</div>
-<div class="w25fl"><img src="./index_files/cen6.png" title="Химчистка салона автомобиля Москва" alt="Химчистка салона автомобиля Москва">
-				<img src="./index_files/ikon2.png" class="ikon1">
-		<p>Мини-Вэн<br>10 000 руб.</p>
-			<a id="go" rel="leanModal" valueforleanmodal="полировка мини-вэнов" name="makeorder2" href="#makeorder2" class="mc">Заказать</a>
-				</div>
-<div class="w25fl"><img src="./index_files/cen9.png" title="Химчистка салона цена" alt="Химчистка салона цена">
-				<img src="./index_files/ikon2.png" class="ikon1">
-		<p>Защитная полировка<br>от 2 500 руб.</p>
-			<a id="go" rel="leanModal" valueforleanmodal="Защитная полировка" name="makeorder2" href="#makeorder2" class="mc">Заказать</a>
-				</div>
-<div class="w25fl"><img src="./index_files/cen10.png" title="Чистка автомобиля" alt="Чистка автомобиля">
-				<img src="./index_files/ikon2.png" class="ikon1">
-		<p>Керамическая полировка<br>от 6 500 руб.</p>
-			<a id="go" rel="leanModal" valueforleanmodal="Керамическая полировка" name="makeorder2" href="#makeorder2" class="mc">Заказать</a>
-				</div>
-<p><b>*Полировка фар бесплатно</b></p>
-<div class="clear"></div>
-</div>
-	</section>
-			
-	<section class="add" id="add">
-		<h2>УСЛУГИ от ООО «Тотал-Клининг»</h2>
+	<div class="w25fl">
+	  <img src="./index_files/cen1.png" title="Чистка салона автомобиля" alt="Чистка салона автомобиля">
+		<img src="./index_files/ikon1.png" class="ikon1">
+		<p>Легковой автомобиль <br> класса A <br> 1 450 руб.</p>
+	  <a id="go" rel="leanModal" valueforleanmodal="Химчистка автомобиля класса A" name="makeorder2" href="#makeorder2" class="mc">Заказать</a>
+	</div>
+
+  <div class="w25fl">
+    <img src="./index_files/cen2.png" title="Химчистка салона автомобиля цена в Москве" alt="Химчистка салона автомобиля цена в Москве">
+		<img src="./index_files/ikon1.png" class="ikon1">
+		<p>Легковой автомобиль <br> класс B, C, D <br> 1 950 руб.</p>
+		<a id="go" rel="leanModal" valueforleanmodal="Химчистка автомобиля класс B, C, D" name="makeorder2" href="#makeorder2" class="mc">Заказать</a>
+	</div>
+
+  <div class="w25fl">
+    <img src="./index_files/cen2.png" title="Химчистка салона автомобиля цена" alt="Химчистка салона автомобиля цена">
+		<img src="./index_files/ikon1.png" class="ikon1">
+		<p>Легковой автомобиль<br>класс E, F <br> 2 350 руб.</p>
+	  <a id="go" rel="leanModal" valueforleanmodal="Химчистка автомобиля класс E, F" name="makeorder2" href="#makeorder2" class="mc">Заказать</a>
+	</div>
+
+  <div class="w25fl">
+    <img src="./index_files/cen6.png" title="Химчистка автомобиля Москва" alt="Химчистка автомобиля Москва">
+		<img src="./index_files/ikon1.png" class="ikon1">
+		<p>Внедорожники, минивэны, <br> малые микроавтобусы <br> 2 950 руб.</p>
+		<a id="go" rel="leanModal" valueforleanmodal="Большие внедорожники, минивэны, малые микроавтобусы" name="makeorder2" href="#makeorder2" class="mc">Заказать</a>
+	</div>
+
+	<div class="w25fl">
+    <img src="./index_files/cen6.png" title="Химчистка автомобиля Москва" alt="Химчистка автомобиля Москва">
+		<img src="./index_files/ikon1.png" class="ikon1">
+		<p>Большие микроавтобусы <br> и лимузины <br> 3 450 руб.</p>
+		<a id="go" rel="leanModal" valueforleanmodal="Большие внедорожники, минивэны, малые микроавтобусы" name="makeorder2" href="#makeorder2" class="mc">Заказать</a>
+	</div>
+
+  <div class="clear"></div>
+  </div>
+</section>
+
+  <section class="info">
+    <div class="wrap">
+      <p class="info__text">
+  		  Мы уделяем мойке автомобиля много времени, так как подходим к делу ответственно. Чтобы ваше ожидание пролетело быстро и было приятным, можем предложить вам посетить дельфинарий, посмотреть кино, покататься на картинге или заняться шоппингом. Все это находится в 5 минутах ходьбы от нас.
+  	  </p>	
+    </div>
+  </section>
+
+	<section class="contacts" id="contacts">
 		<div class="wrap">
-			<div class="v1a scroll-animate">
-				<div class="var v1 fade" title="Чистка салона" alt="Чистка салона" style="opacity: 0.01;">
-					<span>Химчистка салона автомобиля</span>
-					<p>Опытные автолюбители не рекомендуют выполнять химчистку салона самостоятельно: в лучшем случае грязь, при такой «химчистке», лишь только равномерно размажется по сиденьям; в худшем - вследствие неграмотного использования чистящих средств, на обшивке салона могут остаться химические ожоги.</p>
-					<p>Основная цель химчистки салона автомобиля — создание комфорта и уюта внутри авто. После проведения химчистки автомобиля нашими мастерами салон выглядит как новый. Процесс химчистки автомобиля включает в себя целый комплекс работ по тщательной обработке всех видов поверхностей внутри салона: обработку тканевых, пластиковых и кожаных поверхностей.</p>
-					<p>При проведении химчистки мы используем чистящие средства, которые давно зарекомендовали себя на рынке автокосметики и считаются безопасными для человека и животных.</p>
-				</div>
-<center>
-		<div class="var2">
-					<a id="go" rel="leanModal" valueforleanmodal="Химчистка салона автомобиля" name="makeorder" href="#makeorder">Записаться на услугу</a>
-		</div>
-</center>					
-		<!-- Single -->
-		<div class="result-item">
-<p class="rez-zag">Результат качественной работы</p>
-<center>	
-<p class="rez-str"><img src="./index_files/str1.png" title="" alt="" style="left:-32px; top:2px"> до / после <img src="./index_files/str2.png" title="" alt="" style="right:-32px; top:2px"></p>	
-</center>	
-	
-			<div class="result-item-slider">
-			
-				<div class="result-wrapper">
-					<img src="./index_files/before.jpg" title="Чистка салона автомобиля" alt="Чистка салона автомобиля" class="before">
-				</div>
-				
-				<img src="./index_files/after.jpg" title="Химчистка салона Москва" alt="Химчистка салона Москва" class="after">
-				
-				<div class="drag-cursor"></div>
+			<h2 class="contacts__header">
+				Связь с нами
+			</h2>
+			<div class="contacts__address">
+				Санкт-петербург, Салова 78
+			</div>
+			<div class="contacts__map" id="map">
 				
 			</div>
-			
-		</div>
-								
-				<div class="var_div"></div>
-			</div>
-
-		</div>
-	</section>
-
-	<section class="order" title="Химчистка салона автомобиля цена" alt="Химчистка салона автомобиля цена">
-		<div class="wrap">
-			<div class="timer_block">
-				<div class="timer_img"></div>
-				<span>Оставьте заявку прямо сейчас!</span>
-				<font style="color:#df0000; font-weight:bold; letter-spacing:0.5px;">Только до 31 июля закажи комплексную химчистку с выездом всего за 3990 рублей + Химчистка Багажника в Подарок!</font> <br><div class="kont">По вопросам приобретения купонов в подарок 
-<br>звоните по телефону: <b>8 (985) 96-96-513</b> или пишите <br>на электронную почту: <b>info@totalcleaning.ru</b>
-				<div class="clear"></div>
-				<div class="kont2">
-				<div class="left">до конца акции:</div>
-
-  <link rel="stylesheet" type="text/css" href="./index_files/styletttt.css">  
-  <script src="./index_files/scriptttt.js"></script> 					
-	<div id="timer_wrap">
-		<div id="clock">
-			<div id="dddday">
-<div class="vlevo-50">			
-				<p id="dddday0">1</p>
-				<p id="dddday1">2</p>
-</div>
-			<div id="razd">
-дней
-			</div>
-			</div>			
-			<div id="hhhhour">
-<div class="vlevo-50">			
-				<p id="hhhhour0">1</p>
-				<p id="hhhhour1">4</p>
-</div>
-			<div id="razd">
-часов
-			</div>
-			</div>			
-			<div id="mmmmin">
-<div class="vlevo-50">			
-				<p id="mmmmin0">3</p>
-				<p id="mmmmin1" style="margin-top: 0px; opacity: 1;">0</p>
-</div>
-			<div id="razd">
-минут
-			</div>
-			</div>			
-			<div id="ssssec">
-<div class="vlevo-50">			
-				<p id="ssssec0" style="margin-top: 0px; opacity: 1;">3</p>
-				<p id="ssssec1" class="ssec1" style="margin-top: 0px; opacity: 1;">4</p>
-</div>				
-			<div id="razd">
-секунд
-			</div>				
-			</div>
-		</div>		
-	</div>	
-</div>
+			<div class="contacts__bottom">
+				<div class="contacts__logo">
+					<img src="images/logo.svg" alt="isWash">
 				</div>
-			</div>
-			<div class="order_block">
-				<span>Консультация<em>по химчистке салона автомобиля</em></span>
-				и по другим услугам компании<br>ООО «Тотал-Клининг»
-				<form action="pochta/send.php" method="POST" name="form" onsubmit="return checkForm_1(this)">
-					<input type="hidden" name="service" class="service" value="Заказ консультации внизу страницы">
-					<input type="text" name="name" value="" class="input_name placeholder" data-placeholder="ваше имя">
-					<input type="text" name="phone" value="" class="input_phone placeholder" data-placeholder="ваш телефон*">
-					<input type="text" name="email" value="" class="input_email placeholder" data-placeholder="ваш e-mail">
-					<input type="text" name="avt" value="" class="input_avt placeholder" data-placeholder="класс автомобиля">
-					<input class="bttn" name="submit" type="submit" value="Оставить заявку">
-				</form>
+				<div class="contacts__phone">
+					<span>8 (495) <b>96-96-513&nbsp;&nbsp;</b></span>
+				  <a id="go" rel="leanModal" name="callback" href="#callback" class="contacts__callback">Заказать звонок</a>
+				</div>
 			</div>
 		</div>
 	</section>
-	<section class="projects" id="projects">
-		<h2>Наши работы</h2>
-		<div class="wrap scroll-animate">
-			<div class="project p1 scale" style="opacity: 0.01; transform: scale(0.5, 0.5);">
-				<a href="images/projects/1.jpg" data-fancybox-group="gallery" title="Химчистка автомобиля Москва" alt="Химчистка автомобиля Москва" class="fancybox zoom"></a>
-			</div>
-			<div class="project p4 scale" style="opacity: 0.01; transform: scale(0.5, 0.5);">
-				<a href="images/projects/4.jpg" data-fancybox-group="gallery" title="Химчистка автомобиля цены Москва" alt="Химчистка автомобиля цены Москва" class="fancybox zoom"></a>
-			</div>
-			<div class="project p7 scale" style="opacity: 0.01; transform: scale(0.5, 0.5);">
-				<a href="images/projects/7.jpg" data-fancybox-group="gallery" title="Химчистка салона автомобиля цена в Москве" alt="Химчистка салона автомобиля цена в Москве" class="fancybox zoom"></a>
-			</div>
-			<div class="project p10 scale" style="opacity: 0.01; transform: scale(0.5, 0.5);">
-				<a href="images/projects/10.jpg" data-fancybox-group="gallery" title="Химчистка салона Москва цена" alt="Химчистка салона Москва цена" class="fancybox zoom"></a>
-			</div>
-			<div class="project p12 scale" style="opacity: 0.01; transform: scale(0.5, 0.5);">
-				<a href="images/projects/12.jpg" data-fancybox-group="gallery" title="Химчистка салона Москва " alt="Химчистка салона Москва" class="fancybox zoom"></a>
-			</div>
-			<div class="project p5 scale" style="opacity: 0.01; transform: scale(0.5, 0.5);">
-				<a href="images/projects/5.jpg" data-fancybox-group="gallery" title="Химчистка авто" alt="Химчистка авто" class="fancybox zoom"></a>
-			</div>
-			<div class="project p13 scale" style="opacity: 0.01; transform: scale(0.5, 0.5);">
-				<a href="images/projects/13.jpg" data-fancybox-group="gallery" title="Химчистка автомобиля" alt="Химчистка автомобиля" class="fancybox zoom"></a>
-			</div>
-			<div class="project p3 scale" style="opacity: 0.01; transform: scale(0.5, 0.5);">
-				<a href="images/projects/3.jpg" data-fancybox-group="gallery" title="Химчистка автомобиля цены" alt="Химчистка автомобиля цены" class="fancybox zoom"></a>
-			</div>
-			<div class="project p6 scale" style="opacity: 0.01; transform: scale(0.5, 0.5);">
-				<a href="images/projects/6.jpg" data-fancybox-group="gallery" title="Химчистка салона" alt="Химчистка салона" class="fancybox zoom"></a>
-			</div>
-			<div class="project p8 scale" style="opacity: 0.01; transform: scale(0.5, 0.5);">
-				<a href="images/projects/8.jpg" data-fancybox-group="gallery" title="Химчистка салона автомобиля" alt="Химчистка салона автомобиля" class="fancybox zoom"></a>
-			</div>
-			
-			<div class="project p14 scale" style="opacity: 0.01; transform: scale(0.5, 0.5);">
-				<a href="images/projects/14.jpg" data-fancybox-group="gallery" title="Химчистка салона автомобиля Москва" alt="Химчистка салона автомобиля Москва" class="fancybox zoom"></a>
-			</div>
-			<div class="project p9 scale" style="opacity: 0.01; transform: scale(0.5, 0.5);">
-				<a href="images/projects/9.jpg" data-fancybox-group="gallery" title="Химчистка салона цена" alt="Химчистка салона цена" class="fancybox zoom"></a>
-			</div>
-			<div class="project p16 scale" style="opacity: 0.01; transform: scale(0.5, 0.5);">
-				<a href="images/projects/16.jpg" data-fancybox-group="gallery" title="Чистка автомобиля" alt="Чистка автомобиля" class="fancybox zoom"></a>
-			</div>
-			<div class="project p2 scale" style="opacity: 0.01; transform: scale(0.5, 0.5);">
-				<a href="images/projects/2.jpg" data-fancybox-group="gallery" title="Чистка салона" alt="Чистка салона" class="fancybox zoom"></a>
-			</div>
-			<div class="project p11 scale" style="opacity: 0.01; transform: scale(0.5, 0.5);">
-				<a href="images/projects/11.jpg" data-fancybox-group="gallery" title="Чистка салона автомобиля" alt="Чистка салона автомобиля" class="fancybox zoom"></a>
-			</div>
-			<div class="project p15 scale" style="opacity: 0.01; transform: scale(0.5, 0.5);">
-				<a href="images/projects/15.jpg" data-fancybox-group="gallery" title="Химчистка салона автомобиля цена" alt="Химчистка салона автомобиля цена" class="fancybox zoom"></a>
-			</div>
-			
-		</div>
-	</section>
-	<section class="reviews" id="reviews">
-		<h2>Отзывы</h2>
-		<div class="wrap">
-			<div class="r_col">
-				<div class="review">
-					<div class="review_ttl">
-						«Пока была в гостях – мне почистили машину!»
-					</div>
-					<p>Была приятно удивлена не только качеством, но и самой идеей химчистки на дому. Заказала химчистку к дому своей подруги; пока была у нее в гостях – мне почистили машину. Машина как новая! И совсем не влажная,  чего я боялась. Потом я смогла спокойно сесть и уехать по делам.</p>
-					<div class="review_img"></div>
-					<div class="review_name">
-						<span>Стахова Наталья Ивановна</span>
-						 05.04.2015 г., Audi А4
-					</div>
-				</div>
-				<div class="review">
-					<div class="review_ttl">
-						Таким чистым свой Х5 я видел только при  покупке
-					</div>
-					<p>Спасибо огромное ребята! Вы молодцы. Таким чистым свой Х5 я видел только при  покупке в салоне. Оказывается химчистка авто может быть качественной, быстрой и эффективной. Я не ожидал, что салон будет еле-еле влажным, т.к. привык сдавать машину в сервис минимум на 8 часов. Без машины я как без рук, поэтому ваша химчистка для меня отличный выход!</p>
-					<div class="review_img"></div>
-					<div class="review_name">
-						<span>Константин Титов</span>
-						 24.03.2015 г., BMW X5
-					</div>
-				</div>
-			</div>
-			<div class="r_col">
-				<div class="review">
-					<div class="review_ttl">
-						Услугу прям <br>в свой загородный дом
-					</div>
-					<p>Заказала услугу прям в свой загородный дом 30 км. по Минскому шоссе. Ребята приехали и почистили мою машину, машину мужа и сосед подсуетился. Все сделали быстро и качественно. Спасибо Вам. Обязательно воспользуемся вашими услугами вновь.</p>
-					<div class="review_img"></div>
-					<div class="review_name">
-						<span>Прохорова Любовь Николаевна</span>
-						 01.04.2015 г.,  <br>SUZUKI GRAND VITARA
-					</div>
-				</div>
-				<div class="review">
-					<div class="review_ttl">
-						У меня две собаки, которые частенько путешествуют со мной
-					</div>
-					<p>Давно хотел избавиться от запаха и самой шерсти своих любимых питомцев в своем авто. У меня две собаки, которые частенько путешествуют со мной. Вызвал специалистов вашей компании и решил для себя эту головную боль.  В моей машине как-будто воздух даже стал чище. Спасибо ребята! Успехов вам в работе.</p>
-					<div class="review_img"></div>
-					<div class="review_name">
-						<span>Кременчук Алексей Петрович</span>
-						  27.03.2015 г.,  TOYOTA COROLLA
-					</div>
-				</div>
-			</div>
-			
-			<div class="clear"></div>
-			<div class="r_col">
-				<div class="review">
-					<div class="review_ttl">
-						Мой Lexus как новый
-					</div>
-					<p>Вызвал химчистку в г. Красногорск, где проживаю. Приятно удивили цены компании с выездом. Сначала думал какая-то ерунда, но рискнул. По результатам работы могу сказать, что не ожидал, правда. Мой Lexus как новый, но самое приятно – это почти сухой салон после чистки. Фантастика! Спасибо вашей компании.</p>
-					<div class="review_img"></div>
-					<div class="review_name">
-						<span>Панфилов Виталий Леонидович</span>
-						 31.03.2015 г. , BMW X3
-					</div>
-				</div>
-				<div class="review">
-					<div class="review_ttl">
-						От пятен и разводов не осталось и следа
-					</div>
-					<p>У меня была проблема: пятна и разводы на светлом текстиле в салоне. Сам по себе очень красивый салон, но быстро теряет вид. Решила вызвать вашу клининговую компанию к своему офису. Безумно удобно. От пятен и разводов не осталось и следа, все блестит и сияет чистотой. Просто здорово и недорого! Молодцы, что так продумали такую востребованную услугу!</p>
-					<div class="review_img"></div>
-					<div class="review_name">
-						<span>Семенова Оксана Станиславовна</span>
-						  08.04.2014 г., Mercedes-Benz  A 180
-					</div>
-				</div>
-			</div>
-			<div class="r_col">
-				<div class="review">
-					<div class="review_ttl">
-						И от запаха табака избавили и от загрязнений
-					</div>
-					<p>После приобретения подержанного авто, обратился в вашу компанию с проблемой прокуренного и сильно загрязненного салона. Сам я не курю и посторонний запах меня раздражал. Полез в интернет наткнулся на рекламу «химчистка авто с выездом» comfort cleaning и цены вполне приемлемые, решил попробовать. Вызвал и не пожалел, ваши специалисты буквально «вылезали» машину, по-другому не скажешь, потратив при этом около 3-3,5 часов. И от запаха табака избавили и от загрязнений. Я очень вам благодарен!</p>
-					<div class="review_img"></div>
-					<div class="review_name">
-						<span>Шевченко Иван Аркадьевич</span>
-						 03.04.2015 г., Volksvagen Tiguan
-						 </div>
-				</div>
-			</div>
-						
-			<div class="clear"></div>
-		</div>
-	</section>		
-	<section class="order" title="Химчистка автомобиля Москва" alt="Химчистка автомобиля Москва">
-		<div class="wrap">
-			<div class="timer_block">
-				<div class="timer_img"></div>
-				<span>Оставьте заявку прямо сейчас!</span>
-				<font style="color:#df0000; font-weight:bold; letter-spacing:0.5px;">Только до 31 июля закажи комплексную химчистку с выездом всего за 3990 рублей + Химчистка Багажника в Подарок!</font> <br><div class="kont">По вопросам приобретения купонов в подарок 
-<br>звоните по телефону: <b>8 (985) 96-96-513</b> или пишите <br>на электронную почту: <b>info@totalcleaning.ru</b>
-				<div class="clear"></div>
-				<div class="kont2">
-				<div class="left">до конца акции:</div>
-   <link rel="stylesheet" type="text/css" href="./index_files/stylet5.css">  
-  <script src="./index_files/script5.js"></script> 				
-	<div id="timer_wrap">
-		<div id="clock">
-			<div id="ddddday">
-				<p id="ddddday0">1</p>
-				<p id="ddddday1">2</p>
-
-			<div id="razd">
-				дней
-			</div>
-			</div>			
-			<div id="hhhhhour">
-				<p id="hhhhhour0">1</p>
-				<p id="hhhhhour1">4</p>
-
-			<div id="razd">
-				часов
-			</div>
-			</div>			
-			<div id="mmmmmin">
-				<p id="mmmmmin0">3</p>
-				<p id="mmmmmin1" style="margin-top: 0px; opacity: 1;">0</p>
-			<div id="razd">
-				минут
-			</div>
-			</div>			
-			<div id="sssssec">
-				<p id="sssssec0" style="margin-top: 0px; opacity: 1;">3</p>
-				<p id="sssssec1" class="ssec1" style="margin-top: 0px; opacity: 1;">4</p>	
-			<div id="razd">
-				секунд
-			</div>				
-			</div>
-		</div>		
-	</div>	
-</div>
-				</div>
-			</div>
-			<div class="order_block">
-				<span>Консультация<em>по химчистке салона автомобиля</em></span>
-				и по другим услугам компании<br>ООО «Тотал-Клининг»
-				<form action="pochta/send.php" method="POST" name="form" onsubmit="return checkForm_1(this)">
-					<input type="hidden" name="service" class="service" value="Заказ консультации внизу страницы">
-					<input type="text" name="name" value="" class="input_name placeholder" data-placeholder="ваше имя">
-					<input type="text" name="phone" value="" class="input_phone placeholder" data-placeholder="ваш телефон*">
-					<input type="text" name="email" value="" class="input_email placeholder" data-placeholder="ваш e-mail">
-					<input type="text" name="avt" value="" class="input_avt placeholder" data-placeholder="класс автомобиля">
-					<input class="bttn" name="submit" type="submit" value="Оставить заявку">
-				</form>
-			</div>
-		</div>
-	</section>	
-	<section class="sertificate" id="sertificate"> </section>
-
-	<section class="contacts" id="contacts">	</section>
 
 	<section class="any_q">
 		<div class="wrap">
@@ -1087,10 +498,12 @@ function checkForm_3(f)
 			<div class="clear"></div>
 		</div>
 	</section>
-</div>
 
-<script src="./index_files/parallax.js"></script>
-	
-	<script type="text/javascript" src="./index_files/main.js"> </script>   
+  <script src="./index_files/parallax.js"></script>
+  <script type="text/javascript" src="./index_files/main.js"> </script> 
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+  </script>  
 
-<div id="lean_overlay" style="display: none; opacity: 0.8;"></div></body></html>
+<div id="lean_overlay" style="display: none; opacity: 0.8;"></div>
+</body>
+</html>
