@@ -110,28 +110,28 @@ jQuery(function($) {
 			$('.si-overlay, .also-modal').fadeIn(700);
 			$('.also-modal .send-extra').val($(this).data('extra'));
 			return false;
-		})
+		});
 				
 		// Simple
 		$('.open-simple-modal').click(function() {
 			$('.si-overlay').css({'height': $(document).height(), 'width' : $(document).width()});
 			$('.si-overlay, .simple-modal').fadeIn(700);
 			return false;
-		})
+		});
 							
 		// Questions
 		$('.open-questions-modal').click(function() {
 			$('.si-overlay').css({'height': $(document).height(), 'width' : $(document).width()});
 			$('.si-overlay, .questions-modal').fadeIn(700);
 			return false;
-		})
+		});
 										
 		// Privacy
 		$('.open-privacy-modal').click(function() {
 			$('.si-overlay').css({'height': $(document).height(), 'width' : $(document).width()});
 			$('.si-overlay, .privacy-modal').fadeIn(700);
 			return false;
-		})
+		});
 				
 			
 			// Overlay close
@@ -143,7 +143,7 @@ jQuery(function($) {
 				
 				return false;
 				
-			})
+			});
 			
 			$('.si-close').click(function() {
 			
@@ -153,7 +153,20 @@ jQuery(function($) {
 				
 				return false;
 				
-			})
-		
-	
-})
+			});
+});
+
+$(window).load(function() {
+  $("#before-after").twentytwenty();
+  $("a[href*='#']").mPageScroll2id({
+  	offset: 60
+  });
+});
+
+var map;
+function initMap() {
+  map = new google.maps.Map(document.getElementById('map'), {
+    center: {lat: -34.397, lng: 150.644},
+    zoom: 18
+  });
+}
